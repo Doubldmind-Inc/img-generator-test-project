@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api/tool": {
-        target: " http://play.hellogpt.tw",
+        target: "",
         secure: true,
         changeOrigin: true,
         rewrite: (path) => path,
